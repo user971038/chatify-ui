@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { socket } from '.././socket';
 import './Components.css'
 
-// did it detect my changes or...?
-
 const Chats = () => {
 
     const [messages, setMessages] = useState([]);
@@ -23,7 +21,7 @@ const Chats = () => {
         <div className="container" id="chats-container">
             {messages?.map((m) => (
                 <p>{m}</p>
-            ))};
+            ))}Hello World!
         </div>
     );
 };

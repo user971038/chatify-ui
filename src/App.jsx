@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="the-container">
       <div className="title-container">
         <h1>Chatify</h1>
         <ManageConnection />
@@ -32,7 +32,7 @@ function App() {
         <Chats />
         <Users />
       </div>
-    </>
+    </div>
   )
 }
 
