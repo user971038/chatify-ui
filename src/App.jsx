@@ -22,12 +22,12 @@ function App() {
 
   return (
     <>
-      <div class="title-container">
+      <div className="title-container">
         <h1>Chatify</h1>
         <ManageConnection />
         <MyForm />
       </div>
-      <div class="content-container">
+      <div className="content-container">
         <Channels />
         <Chats />
         <Users />

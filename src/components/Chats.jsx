@@ -1,6 +1,8 @@
 import React from 'react'
 import './Components.css'
 
+// did it detect my changes or...?
+
 const Chats = () => {
 
     const [messages, setMessages] = useState([]);
@@ -17,7 +19,7 @@ const Chats = () => {
     }, []);
 
     return (
-        <div class="container" id="chats-container">
+        <div className="container" id="chats-container">
             {messages?.map((m) => (
                 <p>{m}</p>
             ))};
