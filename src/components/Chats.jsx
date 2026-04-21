@@ -21,8 +21,8 @@ const Chats = () => {
             {messages?.map((m) => (
                 <p>{m}</p>
             ))};
-            {/*<div></div>
-            <input id="chatbox"></input>*/}
+            <div></div>
+            <input id="chatbox"></input>
         </div>
     );
 };
