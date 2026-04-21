@@ -26,8 +26,6 @@
     flex-direction: column;
     gap: 9px;
     overflow-y: auto;
-
-    justify-content: flex-end;
 }
 
 #chatbox {
