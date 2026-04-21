@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { socket } from '../socket';
+import { socket } from './socket';
 import './App.css'
 import MyForm from './components/MyForm';
 import ManageConnection from './components/ManageConnection';
