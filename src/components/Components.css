@@ -18,10 +18,16 @@
 
 #chats-container {
     width: 80%;
+    height: 510px;
     background-color: #2e303a;
-    align-content: flex-end;
     padding: 15px;
-    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    overflow-y: auto;
+
+    justify-content: flex-end;
 }
 
 #chatbox {
