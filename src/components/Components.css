@@ -1,0 +1,40 @@
+.container {
+    height: 510px;
+}
+
+/* CHANNELS */
+
+#channels-container {
+    width: 30%;
+    text-align: left;
+}
+
+.channels {
+    border: #2e303a solid 5px;
+    padding: 15px;
+}
+
+/* CHATS */
+
+#chats-container {
+    width: 80%;
+    background-color: #2e303a;
+    align-content: flex-end;
+    padding: 15px;
+}
+
+#chatbox {
+    width: 95%;
+}
+
+/* USERS */
+
+#users-container {
+    width: 30%;
+    text-align: right;
+}
+
+.users {
+    border: #2e303a solid 5px;
+    padding: 15px;
+}
