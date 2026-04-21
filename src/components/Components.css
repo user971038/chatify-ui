@@ -21,6 +21,7 @@
     background-color: #2e303a;
     align-content: flex-end;
     padding: 15px;
+    overflow: auto;
 }
 
 #chatbox {

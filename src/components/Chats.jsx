@@ -21,7 +21,7 @@ const Chats = () => {
         <div className="container" id="chats-container">
             {messages?.map((m) => (
                 <p>{m}</p>
-            ))}Hello World!
+            ))}
         </div>
     );
 };
