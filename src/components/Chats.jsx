@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import { socket } from '.././socket';
 import './Components.css'
 
 // did it detect my changes or...?
@@ -11,7 +12,7 @@ const Chats = () => {
         socket.on('chat message', (msg, serverOffset) => {
             console.log("Mensaje desde Server:", msg);
             socket.auth.serverOffset = serverOffset;
-            setMessage((prev) =>[...prev, msg])
+            setMessages((prev) =>[...prev, msg])
         });
         return () => {
             socket.off('chat message')
