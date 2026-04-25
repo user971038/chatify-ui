@@ -1,6 +1,19 @@
-.the-container {
+/* Color Palette:
+#D4C2FE -> very light purple
+#575BFF -> strong blue
+#C057FF -> pinkish purple
+#8957FF -> very purple
+#5790FF -> lighter blue
+#F757FF -> strong pink
+black & white */
+
+.the-title {
+    color: #F757FF;
+    text-align: center;
+}
+
+.content-container {
     background: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
